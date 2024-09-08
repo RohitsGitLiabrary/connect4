@@ -27,7 +27,7 @@ function resetBoard() {
   board.style.backgroundColor = "";
   board.classList.remove("winner-announcement");
   board.classList.add("board");
-  resetBtn.innerText = "Reset";
+  resetBtn.innerText = "Reset Game";
   board.innerHTML = "";
   createBoard();
   board.addEventListener("click", handleClick);
